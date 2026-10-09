@@ -20,7 +20,7 @@ jobs:
       - name: Extract project
         run: |
           mkdir source
-          unzip -q "图片文字加解密安卓项目源码.zip" -d source
+          unzip -q "source.zip" -d source
           find source -maxdepth 3 -type f | head -50
 
       - name: Set up Gradle
